@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option csharp_namespace = "Test.Grpc.Proto";
+
+package pings;
+
+service PingService {
+  rpc Ping(PingRequest) returns(PingReply) {}
+}
+
+message PingRequest{
+  string Id=1;
+}
+
+message PingReply {
+  string Id = 1;
+}

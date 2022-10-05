@@ -1,2 +1,2 @@
-# grpc_test
-Test gRPC call
+# gRPC test
+Test gRPC retry call with connection timeout
